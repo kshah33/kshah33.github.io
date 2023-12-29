@@ -1,0 +1,510 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link rel="icon" href="files/snow-capped-mountain.png" type="image/x-icon">
+    <title>Ketul Shah</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/extra_min_styles.css">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="stylesheets/css/academicons.css"/>
+    <link rel="stylesheet" href="stylesheets/css/font-awesome.css"/>
+    <link rel="stylesheet" href="stylesheets/css/academicons.min.css"/>
+    <link rel="stylesheet" href="stylesheets/style-svg.html">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+    <body><div class="wrapper">
+
+    <!-- HEADER -->
+    <header>
+        <h1 align="center">Ketul Shah</h1>
+
+        <!-- Picture + Links + News -->
+        <div style="margin-bottom: 10px" align="center">
+
+            <!-- Portrait -->
+            <!-- <img src="files/profile.png" alt="Portrait" WIDTH=160 style="margin-bottom: 8px;border-radius: 15px;"> -->
+            <img src="./files/profile.png" alt="Portrait" class="portrait">
+
+            <!-- Email -->
+            <div style="margin-bottom: 6px;"><img src="./files/email.png" width="175"></div>
+
+            <!-- CV -->
+            <a href="./files/CV_Ketul_24.pdf" style="margin-right:12px;"><i class="ai ai-cv" style="font-size: 32px;"></i>
+            </a>
+
+            <!-- Git -->
+            <a href="https://github.com/kshah33" style="margin-right:12px;">
+                <i class="fa fa-github" style="font-size:32px;"></i>
+            </a>
+
+            <!-- Linkedin -->
+            <a href="https://www.linkedin.com/in/shah-ketul/" style="margin-right:12px;">
+                <i class="fa fa-linkedin-square" style="font-size:32px;"></i>
+            </a>
+
+            <!-- Scholar -->
+            <a href="https://scholar.google.com/citations?hl=en&user=E89_UrMAAAAJ" style="margin-right:12px;">
+                <i class="ai ai-google-scholar big-icon" style="font-size:32px;"></i>
+            </a>
+
+            <!-- Twitter -->
+            <a href="https://twitter.com/ketuls09" style="margin-right:12px;">
+                <i class="fa fa-twitter" style="font-size:32px;"></i>
+            </a>
+            
+            <br>
+            <br>
+        </div>
+
+
+    <!-- Put "nav" here for side bar nav -->
+        <ul class="navbar">
+            <li class="navbar_li" id="selected"><a href="index.html">Home</a></li>
+            <!-- <li class="navbar_li">Blog</a></li> -->
+            <li class="navbar_li"><a href="resources.html">Resources</a></li>
+        </ul>
+
+
+    </header>
+      <section>
+        <h3>Hello!</h3>
+
+        
+        <p>
+            I am a PhD student at Johns Hopkins University in the department of Electrical and Computer Engineering advised by 
+            <a href="https://engineering.jhu.edu/faculty/rama-chellappa/">Prof. Rama Chellappa</a>. 
+            My broad research interests lie at the intersection of machine learning, computer vision and computer graphics. 
+            My current work is on robust action recognition leveraging videos from multiple viewpoints and using synthetic data. 
+        </p>
+        
+        <p>
+            Previously, I obtained an MS in ECE from University of Maryland, College Park. In previous life, I received a 
+            Dual Degree (B.Tech + M.Tech) in Electrical Engineering from Indian Institute of Technology (IIT) Madras, where I worked with 
+            <a href="https://www.ee.iitm.ac.in/kmitra/">Prof. Kaushik Mitra</a> at the <a href="https://www.ee.iitm.ac.in/comp_photolab/">Computational Imaging Lab</a>.
+        </p>
+                
+        <!-- News  -->
+        <h3>Recent News</h3>
+        <ul>
+
+            <li>Dec 2023: Gave a lecture on generalization across viewpoints in Machine Perception course at JHU. </li> 
+            <li>June 2023: Started internship at Amazon Just Walk Out with Robert, Jie, Marian, Peng & Mayank.</li>
+            <li>May 2023: Presented our work on synthetic data for action recognition at ICRA 2023.</li>
+            <li>Feb 2023: Paper accepted at CVPR 2023.</li>
+            <li>Jan 2023: Paper accepted at ICRA 2023.</li>
+            <li>Oct 2022: Paper accepted at WACV 2023.</li>
+            <li>Sep 2022: Paper accepted at NeurIPS 2022.</li>
+            <li>June 2021: Started internship at Amazon Rekognition with Kaustav, Arthur, Hao, Joe.</li>
+
+
+        </ul>
+
+        <!-- Publications -->
+        <h3> Research Work</h3>
+        <table style="margin-top:-12px;">
+
+            <!-- Work-1 -->
+            <tbody><tr style="border-bottom:1px solid #e5e5e5;">
+                <!-- IMAGE -->
+                <td>
+                    <img class="workPicture" src="files/UNITE.png" alt="VUDA with Masked Pre-training & Collaborative Self-Training">
+                </td>
+
+                <!-- TITLE AND INFO -->
+                <td>
+                    <br>
+                    <div id="indexWorkText">
+                        <!-- Title + Link -->
+                        <b>Unsupervised Video Domain Adaptation with Masked Pre-Training <br>and Collaborative Self-Training
+                        </b>
+
+                        <br>
+                        <i>arXiv 2023</i>
+                    </div>
+                    <div class="indexWorkText">
+                        <a href="https://arxiv.org/abs/2312.02914" class="button" target="_blank">PAPER</a>
+                      </div>
+                    <br>
+                    <!-- One sentence description -->
+                    <div id="indexWorkText">
+                        Video unsupervised domain adaptation (UDA) by leveraging CLIP for masked distillation and self-training on target domain data. 
+                    </div>
+                    <br>
+
+                    <!-- Collaborators -->
+                    <div id="indexWorkText">
+                        <a href="https://aiem.jhu.edu/people/arun-reddy/">Arun Reddy</a>, 
+                        William Paul, 
+                        <a href="https://www.jhuapl.edu/work/our-organization/research-and-exploratory-development/red-staff-directory/corban-rivera">Corban Rivera</a>, 
+                        <b>Ketul Shah</b>, 
+                        <a href="https://celsodemelo.net/">Celso M. de Melo</a>, 
+                        <a href="https://engineering.jhu.edu/faculty/rama-chellappa/">Rama Chellappa</a>.
+                    </div>
+                    <br>
+                    <br>
+                </td>
+            </tr>
+           
+            <!-- Work-2 -->
+            <tbody><tr style="border-bottom:1px solid #e5e5e5;">
+                <!-- IMAGE -->
+                <td>
+                    <img class="workPicture" src="files/DiffNat.png" alt="Improving image generation in diffusion models using kurtosis concentration property.">
+                </td>
+
+                <!-- TITLE AND INFO -->
+                <td>
+                    <br>
+                    <div id="indexWorkText">
+                        <!-- Title + Link -->
+                        <b>DIFFNAT: Improving Diffusion Image Quality Using Natural Image Statistics
+                        </b>
+
+                        <br>
+                        <i>arXiv 2023</i>
+                    </div>
+                    <div class="indexWorkText">
+                        <a href="https://arxiv.org/abs/2311.09753" class="button" target="_blank">PAPER</a>
+                      </div>
+                    <br>
+                    <!-- One sentence description -->
+                    <div id="indexWorkText">
+                        Proposed a general "naturnaless" preserving loss based on projected kurtosis concentration property of natural images.
+                    </div>
+                    <br>
+
+                    <!-- Collaborators -->
+                    <div id="indexWorkText">
+                        <a href="https://sites.google.com/site/aniketsealiitkgp/"> Aniket Roy</a>, 
+                        <a href="https://maitreyasuin.github.io/">Maitreya Suin</a>, 
+                        <a href="https://anshulbshah.github.io/">Anshul Shah</a>, 
+                        <b>Ketul Shah</b>, 
+                        <a href="https://joellliu.github.io/">Jiang Liu</a>, 
+                        <a href="https://engineering.jhu.edu/faculty/rama-chellappa/">Rama Chellappa</a>.
+                    </div>
+                    <br>
+                    <br>
+                </td>
+            </tr>
+            
+            <!-- Work-3 -->
+            <tbody><tr style="border-bottom:1px solid #e5e5e5;">
+                <!-- IMAGE -->
+                <td>
+                    <img class="workPicture" src="files/rocog.png" alt="Dataset and baselines for syn-to-real action recognition.">
+                </td>
+
+                <!-- TITLE AND INFO -->
+                <td>
+                    <br>
+                    <div id="indexWorkText">
+                        <!-- Title + Link -->
+                        <b>Synthetic-to-Real Domain Adaptation for Action Recognition: A Dataset and Baseline Performances
+                        </b>
+
+                        <br>
+                        <i>ICRA 2023</i>
+                    </div>
+                    <div class="indexWorkText">
+                        <a href="https://arxiv.org/abs/2303.10280" class="button" target="_blank">PAPER</a>
+                        <a href="https://github.com/reddyav1/RoCoG-v2" class="button" target="_blank">CODE</a>
+                      </div>
+                    <br>
+                    <!-- One sentence description -->
+                    <div id="indexWorkText">
+                        Released RoCoG-v2 dataset for synthetic-to-real and ground-to-air action recognition, and baselines on these domain shifts.
+                    </div>
+                    <br>
+
+                    <!-- Collaborators -->
+                    <div id="indexWorkText">
+                        <b>Ketul Shah</b><sup>*</sup>, 
+                        <a href="https://aiem.jhu.edu/people/arun-reddy/">Arun Reddy</a><sup>*</sup>, 
+                        William Paul, 
+                        <a href="https://www.linkedin.com/in/nagasairohitamocharla/">Rohita Mocharla</a>, 
+                        <a href="https://faculty.cc.gatech.edu/~judy/">Judy Hoffman</a>, 
+                        <a href="https://kdk132.github.io/">Kapil D. Katyal</a>, 
+                        <a href="https://www.cs.umd.edu/people/dmanocha">Dinesh Manocha</a>, 
+                        <a href="https://celsodemelo.net/">Celso M. de Melo</a>, 
+                        <a href="https://engineering.jhu.edu/faculty/rama-chellappa/">Rama Chellappa</a>.
+                    </div>
+                    <br>
+                    <br>
+                </td>
+            </tr>
+
+            <!-- Work-4 -->
+            <tbody><tr style="border-bottom:1px solid #e5e5e5;">
+                <!-- IMAGE -->
+                <td>
+                    <img class="workPicture" src="files/halp.png" alt="Skeleton Self Supervised Learning by hallucinating latent positives.">
+                </td>
+
+                <!-- TITLE AND INFO -->
+                <td>
+                    <br>
+                    <div id="indexWorkText">
+                        <!-- Title + Link -->
+                        <b>HaLP: Hallucinating Latent Positives for Skeleton-based Self-Supervised Learning of Actions
+                        </b>
+
+                        <br>
+                        <i>CVPR 2023</i>
+                    </div>
+                    <div class="indexWorkText">
+                        <a href="https://arxiv.org/abs/2304.00387" class="button" target="_blank">PAPER</a>
+                        <a href="https://github.com/anshulbshah/HaLP" class="button" target="_blank">CODE</a>
+                      </div>
+                    <br>
+                    <!-- One sentence description -->
+                    <div id="indexWorkText">
+                        New contrastive learning method by generating positives in latent space for self-supervised skeleton-based action recognition.
+                    </div>
+                    <br>
+
+                    <!-- Collaborators -->
+                    <div id="indexWorkText">
+                        <a href="https://anshulbshah.github.io/">Anshul Shah</a>,
+                        <b>Ketul Shah</b><sup>*</sup>, 
+                        <a href="https://sites.google.com/site/aniketsealiitkgp/"> Aniket Roy</a><sup>*</sup>,
+                        <a href="https://shlokk.github.io/shlokmishra.github.io/">Shlok Kumar Mishra</a>, 
+                        <a href="https://www.cs.umd.edu/~djacobs/">David Jacobs</a>, 
+                        <a href="https://users.cecs.anu.edu.au/~cherian/">Anoop Cherian</a>, 
+                        <a href="https://engineering.jhu.edu/faculty/rama-chellappa/">Rama Chellappa</a>.
+                    </div>
+                    <br>
+                    <br>
+                </td>
+            </tr>
+
+            <!-- Work-5 -->
+            <tbody><tr style="border-bottom:1px solid #e5e5e5;">
+                <!-- IMAGE -->
+                <td>
+                    <img class="workPicture" src="files/cap2aug.png" alt="Skeleton Self Supervised Learning by hallucinating latent positives.">
+                </td>
+
+                <!-- TITLE AND INFO -->
+                <td>
+                    <br>
+                    <div id="indexWorkText">
+                        <!-- Title + Link -->
+                        <b>Cap2Aug: Caption guided Image to Image data Augmentation
+                        </b>
+
+                        <br>
+                        <i>arXiv 2023</i>
+                    </div>
+                    <div class="indexWorkText">
+                        <a href="https://arxiv.org/abs/2212.05404" class="button" target="_blank">PAPER</a>
+                      </div>
+                    <br>
+                    <!-- One sentence description -->
+                    <div id="indexWorkText">
+                        Generate diverse augmentations using image-to-image diffusion models via captioning.
+                    </div>
+                    <br>
+
+                    <!-- Collaborators -->
+                    <div id="indexWorkText">
+                        <a href="https://sites.google.com/site/aniketsealiitkgp/"> Aniket Roy</a>, 
+                        <b>Ketul Shah</b><sup>*</sup>, 
+                        <a href="https://anshulbshah.github.io/">Anshul Shah</a><sup>*</sup>,
+                        <a href="https://www.linkedin.com/in/anirbanroylinkedin">Anirban Roy</a>, 
+                        <a href="https://engineering.jhu.edu/faculty/rama-chellappa/">Rama Chellappa</a>.
+                    </div>
+                    <br>
+                    <br>
+                </td>
+            </tr>
+
+            <!-- Work-6 -->
+            <tbody><tr style="border-bottom:1px solid #e5e5e5;">
+                <!-- IMAGE -->
+                <td>
+                    <img class="workPicture" src="files/viewcon.png" alt="Multi view action recognition using contrastive learning.">
+                </td>
+
+                <!-- TITLE AND INFO -->
+                <td>
+                    <br>
+                    <div id="indexWorkText">
+                        <!-- Title + Link -->
+                        <b>Multi-View Action Recognition using Contrastive Learning
+                        </b>
+
+                        <br>
+                        <i>WACV 2023</i>
+                    </div>
+                    <div class="indexWorkText">
+                        <a href="https://openaccess.thecvf.com/content/WACV2023/papers/Shah_Multi-View_Action_Recognition_Using_Contrastive_Learning_WACV_2023_paper.pdf" class="button" target="_blank">PAPER</a>
+                      </div>
+                    <br>
+                    <!-- One sentence description -->
+                    <div id="indexWorkText">
+                        Improved hardness-aware supervised contrastive learning objective for multi-view action recognition. 
+                    </div>
+                    <br>
+
+                    <!-- Collaborators -->
+                    <div id="indexWorkText">
+                        <b>Ketul Shah</b>, 
+                        <a href="https://anshulbshah.github.io/">Anshul Shah</a>,
+                        <a href="https://samuel930930.github.io/">Chun Pong Lau</a>, 
+                        <a href="https://sites.google.com/site/aniketsealiitkgp/"> Aniket Roy</a>, 
+                        <a href="https://celsodemelo.net/">Celso M. de Melo</a>, 
+                        <a href="https://engineering.jhu.edu/faculty/rama-chellappa/">Rama Chellappa</a>.
+                    </div>
+                    <br>
+                    <br>
+                </td>
+            </tr>
+
+            <!-- Work-7 -->
+            <tbody><tr style="border-bottom:1px solid #e5e5e5;">
+                <!-- IMAGE -->
+                <td>
+                    <img class="workPicture" src="files/felmi.png" alt="Few shot learning using hardness-aware mixup.">
+                </td>
+
+                <!-- TITLE AND INFO -->
+                <td>
+                    <br>
+                    <div id="indexWorkText">
+                        <!-- Title + Link -->
+                        <b>FeLMi : Few shot Learning with hard Mixup
+                        </b>
+
+                        <br>
+                        <i>NeurIPS 2022</i>
+                    </div>
+                    <div class="indexWorkText">
+                        <a href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/9af2b1d6acf561af9c4cf70d52c7a49d-Abstract-Conference.html" class="button" target="_blank">PAPER</a>
+                      </div>
+                    <br>
+                    <!-- One sentence description -->
+                    <div id="indexWorkText">
+                        Generate samples using manifold mixup and select hard samples based on uncertainty. 
+                    </div>
+                    <br>
+
+                    <!-- Collaborators -->
+                    <div id="indexWorkText">
+                        <a href="https://sites.google.com/site/aniketsealiitkgp/"> Aniket Roy</a>, 
+                        <a href="https://anshulbshah.github.io/">Anshul Shah</a>,
+                        <b>Ketul Shah</b>, 
+                        <a href="https://sites.google.com/site/prithvirajdhar274/">Prithviraj Dhar</a>,
+                        <a href="https://users.cecs.anu.edu.au/~cherian/">Anoop Cherian</a>,
+                        <a href="https://engineering.jhu.edu/faculty/rama-chellappa/">Rama Chellappa</a>.
+                    </div>
+                    <br>
+                    <br>
+                </td>
+            </tr>
+
+            <!-- Work-8 -->
+            <tbody><tr style="border-bottom:1px solid #e5e5e5;">
+                <!-- IMAGE -->
+                <td>
+                    <img class="workPicture" src="files/mvd.gif" alt="Using multi-view depth maps for modeling 3D shapes.">
+                </td>
+
+                <!-- TITLE AND INFO -->
+                <td>
+                    <br>
+                    <div id="indexWorkText">
+                        <!-- Title + Link -->
+                        <b>Improved modeling of 3D shapes with multi-view depth maps
+                        </b>
+
+                        <br>
+                        <i>3DV 2020 (Oral Presentation)</i>
+                    </div>
+                    <div class="indexWorkText">
+                        <a href="https://arxiv.org/abs/2009.03298" class="button" target="_blank">PAPER</a>
+                        <a href="https://kampta.github.io/multiview-shapes/" class="button" target="_blank">PROJECT PAGE</a>
+                        <a href="https://github.com/kampta/multiview-shapes" class="button" target="_blank">CODE</a>
+                      </div>
+                    <br>
+                    <!-- One sentence description -->
+                    <div id="indexWorkText">
+                        A novel encoder-decoder generative model for 3D shapes using multi-view depth maps; SOTA results on single view reconstruction and generation.
+                    </div>
+                    <br>
+
+                    <!-- Collaborators -->
+                    <div id="indexWorkText">
+                        <b>Ketul Shah</b><sup>*</sup>, 
+                        <a href="https://kampta.github.io/">Kamal Gupta</a><sup>*</sup>, 
+                        <a href="https://jsreddy.github.io/">Susmija Jabbireddy</a><sup>*</sup>,
+                        <a href="https://www.cs.umd.edu/~abhinav/">Abhinav Shristava</a>, 
+                        <a href="https://www.cs.umd.edu/~zwicker/">Matthias Zwicker</a>.
+                    </div>
+                    <br>
+                    <br>
+                </td>
+            </tr>
+
+            <!-- Work-9 -->
+            <tbody><tr style="border-bottom:1px solid #e5e5e5;">
+                <!-- IMAGE -->
+                <td>
+                    <img class="workPicture" src="files/davis.png" alt="Photorealistic image reconstruction using event cameras.">
+                </td>
+
+                <!-- TITLE AND INFO -->
+                <td>
+                    <br>
+                    <div id="indexWorkText">
+                        <!-- Title + Link -->
+                        <b>Photorealistic Image Reconstruction from Hybrid Intensity and Event based Sensor
+                        </b>
+
+                        <br>
+                        <i>arXiv 2018</i>
+                    </div>
+                    <div class="indexWorkText">
+                        <a href="https://arxiv.org/abs/1805.06140v1" class="button" target="_blank">PAPER</a>
+                      </div>
+                    <br>
+                    <!-- One sentence description -->
+                    <div id="indexWorkText">
+                        Novel method for generating high-frame rate video from a conventional camera and an event sensor. 
+                        Warp the intensity frames by first estimating scene depth and ego-motion.
+                    </div>
+                    <br>
+
+                    <!-- Collaborators -->
+                    <div id="indexWorkText">
+                        <a href="https://asprasan.github.io/">Prasan A. Shedligeri</a>, 
+                        <b>Ketul Shah</b>, 
+                        <a href="https://www.linkedin.com/in/dhruv-kumar-2b4ab4126/">Dhruv Kumar</a>, 
+                        <a href="https://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a>.
+                    </div>
+                    <br>
+                    <br>
+                </td>
+            </tr>
+
+
+
+        </tbody></table>
+       
+      </section>
+    <footer>
+        <br>
+        <p style="line-height: 1.2;" align="center"><small>Based</a> on the <a href="https://github.com/orderedlist/minimal">minimal</a> theme.<br>
+            &copy; 2024 Ketul Shah
+</small></p>
+    </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
